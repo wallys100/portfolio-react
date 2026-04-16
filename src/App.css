@@ -1,0 +1,153 @@
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* BODY */
+body {
+  font-family: Arial, sans-serif;
+  background: #0f172a;
+  color: #fff;
+}
+
+/* HEADER */
+header {
+  text-align: center;
+  padding: 30px 20px;
+}
+
+nav {
+  margin-top: 10px;
+}
+
+nav a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #60a5fa;
+  font-weight: bold;
+}
+
+/* SEÇÕES */
+section {
+  padding: 60px 20px;
+  max-width: 1000px;
+  margin: auto;
+  text-align: center;
+}
+
+/* TITULOS */
+h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+/* PROJETOS */
+#projetos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#projetos div {
+  background: #1e293b;
+  padding: 20px;
+  margin: 10px;
+  width: 300px;
+  border-radius: 10px;
+}
+
+/* FORM */
+form {
+  max-width: 400px;
+  margin: auto;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: none;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background: #2563eb;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+header {
+  border-bottom: 1px solid #1e293b;
+}
+
+nav a:hover {
+  color: #93c5fd;
+}
+
+#sobre p {
+  max-width: 600px;
+  margin: auto;
+  line-height: 1.6;
+}
+
+#projetos div {
+  transition: 0.3s;
+}
+
+#projetos div:hover {
+  transform: translateY(-5px);
+}
+
+.foto-perfil {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+
+  display: block;
+  margin: 20px auto;
+
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+  border: 3px solid #2563eb;
+
+  transition: 0.3s; /* importante */
+}
+
+.foto-perfil:hover {
+  transform: scale(1.05);
+  transition: 0.3s;
+}
+
+.sobre-container {
+  padding: 80px 20px;
+}
+
+.sobre-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap; /* responsivo */
+}
+
+.sobre-texto {
+  max-width: 500px;
+  text-align: left;
+}
+
+.sobre-texto h2 {
+  font-size: 32px;
+  margin-bottom: 15px;
+}
+
+.sobre-texto p {
+  line-height: 1.6;
+  color: #ccc;
+}
